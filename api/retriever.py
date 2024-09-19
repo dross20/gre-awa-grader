@@ -39,11 +39,5 @@ class RetrieverFactory():
 
     def get_retriever(self):
         return self.retriever
-    
-os.environ["OPENAI_API_VERSION"] = "2023-03-15-preview"
-os.environ["AZURE_OPENAI_ENDPOINT"] = "https://langchain-test-3.openai.azure.com/"
-os.environ["AZURE_OPENAI_API_KEY"] = "330d8510da75488fac135dad59c736af"
-os.environ["AZURE_OPENAI_DEPLOYMENT"] = "test-gpt-deployment"
-
 
 retriever = RetrieverFactory().get_retriever()
