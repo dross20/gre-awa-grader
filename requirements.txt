@@ -1,0 +1,14 @@
+langchain_core
+langchain_openai
+langchain_community
+tiktoken
+langchain-openai
+langchainhub
+chromadb
+langchain
+langgraph
+tavily-python
+gradio
+langserve[all]
+flask
+bs4

@@ -1,0 +1,4 @@
+flagged/
+.venv/
+api/.env
+api/__pycache__
